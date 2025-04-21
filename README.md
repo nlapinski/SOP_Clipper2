@@ -8,6 +8,7 @@ A Houdini HDK wrapper around [Clipper2](https://github.com/AngusJohnson/Clipper2
 
 - **Open and Closed Curve Support**: Handles open curves/lines that Houdini's Boolean SOP cannot.
 - **Stable Curve Buffering**: Provides better offsetting than the PolyExpand2D SOP in some cases.
+- **Windows only right now**: At some point I'll setup builds for linux, but for now its windows only, shouldnt be too hard to modify the cmake file for linux.
 
 ---
 

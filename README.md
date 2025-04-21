@@ -1,6 +1,26 @@
-Wrapper around clipper2 (https://github.com/AngusJohnson/Clipper2) for Houdini/HDK
+# Clipper2 HDK Wrapper
 
-Buils a OTL for all the basic functions. Many of the functions can be done with the boolean sop now, but clipper2 will handle open curves/lines. It also provides more stable curve buffering than the polyexpand2D in some cases.
+A Houdini HDK wrapper around [Clipper2](https://github.com/AngusJohnson/Clipper2), for curve/2D boolean operations.
 
-![image](https://github.com/user-attachments/assets/5bc17083-6613-4e3d-b7c8-0fff6c6a00a7)
-![image](https://github.com/user-attachments/assets/12b5a528-0f27-402b-b5ea-c2bd7b99f39c)
+---
+
+## Features
+
+- **Open and Closed Curve Support**: Handles open curves/lines that Houdini's Boolean SOP cannot.
+- **Stable Curve Buffering**: Provides better offsetting than the PolyExpand2D SOP in some cases.
+
+---
+
+## Examples
+
+![OTL](https://github.com/user-attachments/assets/5bc17083-6613-4e3d-b7c8-0fff6c6a00a7)
+![Cutting](https://github.com/user-attachments/assets/12b5a528-0f27-402b-b5ea-c2bd7b99f39c)
+![Curve cuts](https://github.com/user-attachments/assets/a17b39b0-2000-41e5-819d-f1d5a8e6058c)
+
+
+---
+
+## License
+
+This project is licensed under the Boost License. See the [LICENSE](LICENSE) file for details.
+
